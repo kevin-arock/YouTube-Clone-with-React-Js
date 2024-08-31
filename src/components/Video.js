@@ -3,7 +3,7 @@ import React from 'react'
 const Video = ({details}) => {
 console.log(details);
   return (
-    <div className='w-90 p-2'>
+    <div className='w-90 p-2 hover:bg-gray-100 rounded-lg'>
         <img alt='thumbnail' className='rounded-lg' src={details.snippet.thumbnails.medium.url}/>
         <div className='w-80 mt-2'>
             <p className='font-bold'>{details.snippet.title}</p>
