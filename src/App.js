@@ -21,7 +21,8 @@ function App() {
         path:"watch",
         element:<Watch/>
       },
-  ],
+      
+    ],
   }]
 )
   return (
